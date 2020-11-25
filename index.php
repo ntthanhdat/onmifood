@@ -12,56 +12,66 @@
     
 </head>
 <body>
-    <header> <!--
-        <div class="topnav" >
-            <a href="">FOOD DELIVERY</a>
-            <a href="sec2">HOW IT WORKS</a>
-            <a href="">OUR CITIES</a>
-            <a href="">SIGN UP</a>
-        </div>
-        <img src="image/logo-white.png" alt="logo" width="100vh" height="100vh" class="logo">
--->
-        <div>
-            <img src="image/logo-white.png" alt="logo" width="100px" height="auto" class="logo2">
-            <ul class="main-nav">
-                <li><a href="">FOOD DELIVER</a></li>
-                <li><a href="">HOW IT WORKS</a></li>
-                <li><a href="">OUR CITIES</a></li>
-                <li><a href="">SIGN UP</a></li>
-            </ul>
-        </div> 
+    <header> 
+        <nav>
+            <div class="row">
+                <img src="image/logo-white.png" alt="logo" width="100px" height="auto" class="logo2">
+                <ul class="main-nav">
+                    <li><a href="">FOOD DELIVER</a></li>
+                    <li><a href="">HOW IT WORKS</a></li>
+                    <li><a href="">OUR CITIES</a></li>
+                    <li><a href="">SIGN UP</a></li>
+                </ul>
+            </div> 
+        </nav>
+        
         <div class="link">
-            <H1 class="whiteh">GOODBYE JUNK FOOD. <br>HELLO SUPER HEALTHY MEAL</H1>
+            <H1 >GOODBYE JUNK FOOD. <br>HELLO SUPER HEALTHY MEAL</H1>
             <a class="buttonlink" href="">I'm hungry</a>
             <a class="buttonlink" href="">Show me more</a>
         </div>
     </header>
-    <div class="home">
 
-        <div>
-            <h1 class="blackh">Get food fast — not fast food.</h1>
-            <p class="underline"></p>
-            <p>Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. <br>No time for cooking. So let us take care of that, we’re really good at it, we promise!</p>
+    <section class="section-feature">
+
+        <div class="row">
+            <h2 class="blackh">Get food fast &mdash; not fast food.</h1>            
+            <p class="long-copy">
+                Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!
+            </p>
         </div>
-        <div>
-            <span>
-                <h1>Up to 365 days/year</h1>
-                <p>Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!</p>
-            </span>
-            <span>
-                <h1>Ready in 20 minutes</h1>
-                <p></p>
-            </span>
-            <span>
-                <h1>100% organic</h1>
-                <p></p>
-            </span>
-            <span>
-                <h1>Order anything</h1>
-                <p></p>
-            </span>
+        <div class="row">
+        <div class="col span_1_of_4">
+                <ion-icon name="infinite-outline"></ion-icon>
+                <h3>Up to 365 days/year</h3>
+                <p>
+                    Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!
+                </p>
+            </div>
+            <div class="col span_1_of_4">
+                <ion-icon name="timer-outline"></ion-icon>
+                <h3>Ready in 20 minutes</h3>
+                <p>
+                You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.
+                </p>
+            </div>
+            <div class="col span_1_of_4">
+            <ion-icon src="icon/ios-nutrition.svg"></ion-icon>
+                <h3>100% organic</h3>
+                <p>
+                All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!
+                </p>
+            </div>
+            <div class="col span_1_of_4">
+            <ion-icon src="icon/ios-cart.svg"></ion-icon>
+                <h3>Order anything</h3>
+                <p>
+                We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!
+                </p>
+            </div>
         </div>
-    </div>
+    </section>
+    <!--
     <section id="sec2">
         <h1>How it works - Simple as 1, 2, 3</h1>
         <p>Choose the subscription plan that best fits your needs and sign up today.</p>
@@ -71,5 +81,7 @@
     <div class="row"> 
         <h1>noidung</h1>
     </div>
+-->
+<script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 </body>
 </html>
