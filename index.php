@@ -20,7 +20,7 @@
         </div>
         <img src="image/logo-white.png" alt="logo" width="100vh" height="100vh" class="logo">
             
-        <div class="hd">
+        <div class="link">
             <H1 class="whiteh">GOODBYE JUNK FOOD. <br>HELLO SUPER HEALTHY MEAL</H1>
             <a class="buttonlink" href="">I'm hungry</a>
             <a class="buttonlink" href="">Show me more</a>
