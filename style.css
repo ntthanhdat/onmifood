@@ -165,3 +165,27 @@ section{
     padding:  80px 0;
 
 }
+/* ------------------------------ */
+/* ------------meal------------ */
+/* ------------------------------ */
+.meal-showcase{
+    list-style: none;
+    width: 100%;
+}
+.meal-showcase li{
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+}
+.meal-showcase li figure{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.meal-showcase li figure img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+}

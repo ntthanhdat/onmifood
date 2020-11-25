@@ -70,18 +70,42 @@
                 </p>
             </div>
         </div>
+    </section >
+    <section class="section-meal">
+        <ul class="meal-showcase">
+            <li>
+                <figure><img src="image/1.jpg" alt="Korean bibimbap with egg and vegetables"></figure>
+            </li>
+            <li>
+                <figure><img src="image/2.jpg" alt="Simple italian pizza with cherry tomatoes"></figure>
+            </li>
+            <li>
+                <figure><img src="image/3.jpg" alt="Chicken breast steak with vegetables"></figure>
+            </li>
+            <li>
+                <figure><img src="image/4.jpg" alt="Autumn pumpkin soup"></figure>
+            </li>
+            <li>
+                <figure><img src="image/5.jpg" alt="Paleo beef steak with vegetables"></figure>
+            </li>
+            <li>
+                <figure><img src="image/6.jpg" alt="Healthy baguette with egg and vegetables"></figure>
+            </li>
+            <li>
+                <figure><img src="image/7.jpg" alt="Burger with cheddar and bacon"></figure>
+            </li>
+            <li>
+                <figure><img src="image/8.jpg" alt="Granola with cherries and strawberries"></figure>
+            </li>
+        </ul>
     </section>
-    <!--
-    <section id="sec2">
+    <section class="">
         <h1>How it works - Simple as 1, 2, 3</h1>
         <p>Choose the subscription plan that best fits your needs and sign up today.</p>
         <p>Order your delicious meal using our mobile app or website. Or you can even call us!</p>
         <p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
     </section>
-    <div class="row"> 
-        <h1>noidung</h1>
-    </div>
--->
+    
 <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 </body>
 </html>
