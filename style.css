@@ -65,3 +65,17 @@ header {
 .topnav .icon {
     display: none;
   }
+
+  .link {
+    position: absolute;
+    top: 38%;
+    left: 10%;
+}
+.link a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(228, 136, 15);
+    border-radius: 200px;
+    padding: 8px 14px;
+
+}
