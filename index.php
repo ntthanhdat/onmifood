@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="Grid.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:100,300,400italic" rel="stylesheet">
     
 </head>
 <body>
@@ -141,7 +142,7 @@
                     </div>
                     <div class="city-featre">
                     <ion-icon name="logo-twitter" class=".city-icon"></ion-icon>
-                    @omnifood
+                    <a href="a">@omnifood_lx</a>
                     </div>
                     
                 </div>
@@ -150,15 +151,15 @@
                     <h3>san francisco</h3>
                     <div class="city-featre">
                         <ion-icon  src="icon/person.svg" class=".city-icon"></ion-icon>
-                        1600+ happy eater
+                        3700+ happy eater
                     </div>
                     <div class="city-featre">
                     <ion-icon name="star" class=".city-icon"></ion-icon>
-                    60+ cheft
+                    160+ cheft
                     </div>
                     <div class="city-featre">
                     <ion-icon name="logo-twitter" class=".city-icon"></ion-icon>
-                    @omnifood
+                    <a href="a">@omnifood_sf</a>
                     </div>
                 </div>
                 <div class="col span_1_of_4 box">
@@ -166,15 +167,15 @@
                     <h3>berlin</h3>
                     <div class="city-featre">
                         <ion-icon  src="icon/person.svg" class=".city-icon"></ion-icon>
-                        1600+ happy eater
+                        2300+ happy eater
                     </div>
                     <div class="city-featre">
                     <ion-icon name="star" class=".city-icon"></ion-icon>
-                    60+ cheft
+                    110+ cheft
                     </div>
                     <div class="city-featre">
                     <ion-icon name="logo-twitter" class=".city-icon"></ion-icon>
-                    @omnifood
+                    <a href="a">@omnifood_berlin</a>
                     </div>
                 </div>
                 <div class="col span_1_of_4 box">
@@ -182,16 +183,50 @@
                     <h3>london</h3>
                     <div class="city-featre">
                         <ion-icon  src="icon/person.svg" class=".city-icon"></ion-icon>
-                        1600+ happy eater
+                        1200+ happy eater
                     </div>
                     <div class="city-featre">
                     <ion-icon name="star" class=".city-icon"></ion-icon>
-                    60+ cheft
+                    50+ cheft
                     </div>
                     <div class="city-featre">
                     <ion-icon name="logo-twitter" class=".city-icon"></ion-icon>
-                    @omnifood
+                    <a href="image">@omnifood_london</a>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-guest">
+            <div class="row">
+                <h2>Our customers can't live without us</h2>
+            </div>
+            <div class="row">
+                <div class="col span_1_of_3">
+                    <blockquote>
+                    Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
+                    <cite>
+                        <img src="image/customer-1.jpg" alt="">
+                        Alberto Duncan
+                    </cite>
+                    </blockquote>
+                </div>
+                <div class="col span_1_of_3">
+                    <blockquote>
+                    Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!
+                    <cite>
+                        <img src="image/customer-2.jpg" alt="">
+                        Joana Silva
+                    </cite>
+                    </blockquote>
+                </div>
+                <div class="col span_1_of_3">
+                    <blockquote>
+                    I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!
+                    <cite>
+                        <img src="image/customer-3.jpg" alt="">
+                        Milton Chapman
+                    </cite>
+                    </blockquote>
                 </div>
             </div>
         </section>
