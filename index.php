@@ -72,7 +72,7 @@
         </div>
     </section >
     <section class="section-meal">
-        <ul class="meal-showcase">
+        <ul class="meal-showcase clear-fix">
             <li>
                 <figure><img src="image/1.jpg" alt="Korean bibimbap with egg and vegetables"></figure>
             </li>
@@ -99,12 +99,102 @@
             </li>
         </ul>
     </section>
-    <section class="">
-        <h1>How it works - Simple as 1, 2, 3</h1>
-        <p>Choose the subscription plan that best fits your needs and sign up today.</p>
-        <p>Order your delicious meal using our mobile app or website. Or you can even call us!</p>
-        <p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
-    </section>
+    <section class="section-step">
+        <div class="row">
+            <h2>How it works &mdash; Simple as 1, 2, 3</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-2 steps-box">
+                <img class="app-screen" src="image/app-iPhone.png" alt="Omni fodd app for iphone">
+            </div>
+            <div class="col span-1-of-2 steps-box">
+                <div class="work-step">
+                    <div>1</div>
+                    <p>Choose the subscription plan that best fits your needs and sign up today.</p>
+                </div>
+                <div class="work-step">
+                    <div>2</div>
+                    <p>Order your delicious meal using our mobile app or website. Or you can even call us!</p>
+                </div>
+                <div class="work-step">
+                    <div>3</div>
+                    <p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
+                </div>
+                <a href="" class="btn-app"><img src="image/download-app.svg"  alt="app stpre"></a>
+                <a href="" class="btn-app"><img src="image/download-app-android.png" alt="play store"></a>
+            </div>
+        </div>
+        </section>
+        <section class="section-cities">
+            <h2>We're currently in these cities</h2>
+            <div class="row">
+                <div class="col span_1_of_4 box">
+                    <img src="image/lisbon-3.jpg" alt="">
+                    <h3>Lisbon</h3>
+                    <div class=" city-featre">
+                        <ion-icon  src="icon/person.svg" class=".city-icon"></ion-icon>
+                        1600+ happy eater
+                    </div>
+                    <div class="city-featre">
+                    <ion-icon name="star" class=".city-icon"></ion-icon>
+                    60+ cheft
+                    </div>
+                    <div class="city-featre">
+                    <ion-icon name="logo-twitter" class=".city-icon"></ion-icon>
+                    @omnifood
+                    </div>
+                    
+                </div>
+                <div class="col span_1_of_4 box">
+                    <img src="image/san-francisco.jpg" alt="">
+                    <h3>san francisco</h3>
+                    <div class="city-featre">
+                        <ion-icon  src="icon/person.svg" class=".city-icon"></ion-icon>
+                        1600+ happy eater
+                    </div>
+                    <div class="city-featre">
+                    <ion-icon name="star" class=".city-icon"></ion-icon>
+                    60+ cheft
+                    </div>
+                    <div class="city-featre">
+                    <ion-icon name="logo-twitter" class=".city-icon"></ion-icon>
+                    @omnifood
+                    </div>
+                </div>
+                <div class="col span_1_of_4 box">
+                    <img src="image/berlin.jpg" alt="">
+                    <h3>berlin</h3>
+                    <div class="city-featre">
+                        <ion-icon  src="icon/person.svg" class=".city-icon"></ion-icon>
+                        1600+ happy eater
+                    </div>
+                    <div class="city-featre">
+                    <ion-icon name="star" class=".city-icon"></ion-icon>
+                    60+ cheft
+                    </div>
+                    <div class="city-featre">
+                    <ion-icon name="logo-twitter" class=".city-icon"></ion-icon>
+                    @omnifood
+                    </div>
+                </div>
+                <div class="col span_1_of_4 box">
+                    <img src="image/london.jpg" alt="">
+                    <h3>london</h3>
+                    <div class="city-featre">
+                        <ion-icon  src="icon/person.svg" class=".city-icon"></ion-icon>
+                        1600+ happy eater
+                    </div>
+                    <div class="city-featre">
+                    <ion-icon name="star" class=".city-icon"></ion-icon>
+                    60+ cheft
+                    </div>
+                    <div class="city-featre">
+                    <ion-icon name="logo-twitter" class=".city-icon"></ion-icon>
+                    @omnifood
+                    </div>
+                </div>
+            </div>
+        </section>
     
 <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 </body>

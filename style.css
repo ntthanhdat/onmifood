@@ -15,6 +15,18 @@ a {
     color: white;
 
 }
+
+.clear-fix{zoom: 1;}
+.clear-fix:after{
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+ion-icon{
+    color: #e67e22;
+}
 /* ------------------------------ */
 /* ------------heading------------ */
 /* ------------------------------ */
@@ -157,7 +169,7 @@ header {
 /* ------------------------------ */
 /* ------------section 1------------ */
 /* ------------------------------ */
-ion-icon {
+.section-feature  ion-icon {
     font-size: 64px;
     color: #e67e22 ;
 }
@@ -203,4 +215,73 @@ section{
 .meal-showcase li figure img:hover{
     transform: scale(1.03);
     opacity: 1;
+}
+/* ------------------------------ */
+/* ------------how it works------------ */
+/* ------------------------------ */
+.section-step{
+    background-color: rgb(230, 230, 230) ;
+}
+.steps-box{
+    margin-top: 30px;
+}
+.steps-box:first-child{
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+.steps-box:last-child{
+    padding-right: 3%;
+    margin-top: 70px;
+}
+.app-screen{
+    width: 40%;
+}
+.work-step{
+    margin-bottom: 50px;
+}
+.work-step:last-of-type{
+    margin-bottom: 80px;
+}
+.work-step div{
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
+}
+
+.btn-app img{
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+/* ------------------------------ */
+/* ------------cities------------ */
+/* ------------------------------ */
+.section-cities img{
+    width: 100%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.city-icon {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22 ;
+    font-size: 120%;
+    /* align*/
+    line-height: 120%;
+    vertical-align: middle;
+}
+.city-feature{
+    margin-bottom: 5px;
+
 }
