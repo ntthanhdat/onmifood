@@ -29,7 +29,7 @@
         <div class="link">
             <H1 >GOODBYE JUNK FOOD. <br>HELLO SUPER HEALTHY MEAL</H1>
             <a class="buttonlink" href="">I'm hungry</a>
-            <a class="buttonlink" href="">Show me more</a>
+            <a class="buttonlink2" href="">Show me more</a>
         </div>
     </header>
 
@@ -335,6 +335,60 @@
                         <a href="" class="buttonlink">Sign up now</a>
                     </div>
                 </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-contact">
+            <div class="row">
+                <h2>We're happy to hear from you</h2>
+            </div>
+            <div class="row">
+                <div method="post" class="contact-form" action="">
+                    <div class="row">
+                        <div class="col span_1_of_3">
+                            <label for="">Name</label>
+                        </div>
+                        <div class="col span_2_of_3">
+                            <input type="text" name="name" id="name" placeholder="Your name" require>  
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span_1_of_3">
+                            <label for="">How did you find us?</label>
+                        </div>
+                        <div class="col span_2_of_3">
+                            <select name="find-us" id="fins-us">
+                                <option value="Friends">Friends</option>
+                                <option value="Search engine">Search engine</option>
+                                <option value="Advertisement">Advertisement</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span_1_of_3">
+                            <label for="">Newsletter</label>
+                        </div>
+                        <div class="col span_2_of_3">
+                            <input type="checkbox" name="news" id="news" checked> Yes, please
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span_1_of_3">
+                            <label for="">Drop us a line</label>
+                        </div>
+                        <div class="col span_2_of_3">
+                        <textarea type="message"  placeholder="Your message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span_1_of_3">
+                            <label for="">&nbsp;</label>
+                        </div>
+                        <div class="col span_2_of_3">
+                            <input class="submitbutton" type="submit" value="Send it!">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

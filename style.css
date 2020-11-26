@@ -95,14 +95,8 @@ header {
     left: 10%;
 }
 
-.buttonlink {
-    color:  #e67f22;
-    background-color: transparent;
-    border: 2px solid;
-    border-color:  #e67f22;
-}
 
-.buttonlink:link {
+.buttonlink:link, .buttonlink:visited {
     color:  #e67f22;
     background-color: transparent;
     border: 2px solid;
@@ -111,15 +105,33 @@ header {
     border-radius: 200px;
 }
 
-.buttonlink:hover {
+.buttonlink:hover, .buttonlink:active {
     color: #ffffff;
     background-color:  #e67f22;
     border: 2px solid;
     border-color:  #e67f22;
-    padding: 10px 10px;
+    padding: 10px 20px;
     border-radius: 200px;
 }
 
+
+.buttonlink2:link, .buttonlink2:visited {
+    color: #ffffff;
+    background-color:  #e67f22;
+    border: 2px solid;
+    border-color:  #e67f22;
+    padding: 10px 20px;
+    border-radius: 200px;
+}
+.buttonlink2:hover, .buttonlink2:active {
+
+    color:  #e67f22;
+    background-color: transparent;
+    border: 2px solid;
+    border-color:  #e67f22;
+    padding: 10px 20px;
+    border-radius: 200px;
+}
 
 .home p{
     text-align: center;
@@ -382,4 +394,25 @@ cite img{
     width: 60%;
     margin-left: 20%;
     text-align: center;
+}
+/* ------------------------------ */
+/* -----------contact------------ */
+/* ------------------------------ */
+.submitbutton, .submitbutton:visited{
+    color: #fff;
+    background-color: #e67f22;
+    padding: 20 50 20 50;
+    border: hidden;
+    border-radius: 200px;
+    border: 2px solid #e67f22;
+    padding: 10px 40px;
+}
+.submitbutton:hover, .submitbutton:active{
+    color: #e67f22;
+    background-color: transparent;
+    padding: 20 50 20 50;
+    border: hidden;
+    border-radius: 200px;
+    border: 2px solid #e67f22;
+    padding: 10px 40px;
 }
