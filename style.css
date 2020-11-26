@@ -25,7 +25,7 @@ a {
     visibility: hidden;
 }
 ion-icon{
-    color: #e67e22;
+    color: #e67f22;
 }
 /* ------------------------------ */
 /* ------------heading------------ */
@@ -57,7 +57,7 @@ h3{
 h2:after{
     display: block;
     height: 2px;
-    background-color: #e67e22;
+    background-color: #e67f22;
     content: " ";
     width: 100px;
     margin: 0 auto;
@@ -96,27 +96,27 @@ header {
 }
 
 .buttonlink {
-    color:  #e67e22;
+    color:  #e67f22;
     background-color: transparent;
     border: 2px solid;
-    border-color:  #e67e22;
+    border-color:  #e67f22;
 }
 
 .buttonlink:link {
-    color:  #e67e22;
+    color:  #e67f22;
     background-color: transparent;
     border: 2px solid;
-    border-color:  #e67e22;
+    border-color:  #e67f22;
     padding: 10px 20px;
     border-radius: 200px;
 }
 
 .buttonlink:hover {
     color: #ffffff;
-    background-color:  #e67e22;
+    background-color:  #e67f22;
     border: 2px solid;
-    border-color:  #e67e22;
-    padding: 10px 20px;
+    border-color:  #e67f22;
+    padding: 10px 10px;
     border-radius: 200px;
 }
 
@@ -127,7 +127,7 @@ header {
 }
 
 .underline{
-    background-color:  #e67e22;
+    background-color:  #e67f22;
     padding: 1px 20px;
     float: center;
 }
@@ -164,7 +164,7 @@ header {
     text-align: center;
     font-size: 90%;
     padding: 8px;
-    border-bottom: 2px solid #e67e22;
+    border-bottom: 2px solid #e67f22;
     
 }
 /* ------------------------------ */
@@ -172,7 +172,7 @@ header {
 /* ------------------------------ */
 .section-feature  ion-icon {
     font-size: 64px;
-    color: #e67e22 ;
+    color: #e67f22 ;
 }
 section{
     padding:  80px 0;
@@ -221,7 +221,7 @@ section{
 /* ------------how it works------------ */
 /* ------------------------------ */
 .section-step{
-    background-color: rgb(230, 230, 230) ;
+    background-color: #f4f4f4 ;
 }
 .steps-box{
     margin-top: 30px;
@@ -245,8 +245,8 @@ section{
     margin-bottom: 80px;
 }
 .work-step div{
-    color: #e67e22;
-    border: 2px solid #e67e22;
+    color: #e67f22;
+    border: 2px solid #e67f22;
     display: inline-block;
     border-radius: 50%;
     height: 55px;
@@ -276,7 +276,7 @@ section{
     display: inline-block;
     width: 30px;
     text-align: center;
-    color: #e67e22 ;
+    color: #e67f22 ;
     font-size: 120%;
     /* align*/
     line-height: 120%;
@@ -287,8 +287,8 @@ section{
 }
 .section-cities a{
     text-decoration: none;
-    color: #e67e22;
-    border-bottom: 1px solid #e67e22;
+    color: #e67f22;
+    border-bottom: 1px solid #e67f22;
     padding-bottom: 1px;
 }
 /* ------------------------------ */
@@ -327,4 +327,59 @@ cite img{
     border-radius: 50%;
     margin-right: 10px;
     vertical-align: middle;
+}
+/* ------------------------------ */
+/* ------------start------------ */
+/* ------------------------------ */
+.section-start{
+    
+    background-color: #f4f4f4 ;
+}
+.section-start li{
+    list-style: none;
+    padding: 5px 0;
+}
+.section-start ul{
+    display: block;
+}
+.section-start a{
+    display: block;
+}
+
+.plan{
+    background-color: #fff ;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px rgb(172, 172, 172);
+}
+
+.plan div{
+    padding: 15px;
+    border-bottom: 2px solid #f4f4f4 ;
+}
+.plan div:first-child{
+    background-color: #fcfcfc;
+}
+.plan div:last-child{
+    border: 0;
+}
+.price{
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #e67f22;
+}
+.price span{
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.prece-meal{
+    font-size: 80%;
+}
+.plan div .buttonlink{
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
 }

@@ -230,7 +230,119 @@
                 </div>
             </div>
         </section>
+        <section class="section-start">
+            <div class="row">
+                <h2>Start eating healthy today</h2>
+            </div>
+            <div class="row">
+                <div class="col span_1_of_3">
+                    <div class="plan">
+                        <div>
+                            <h3>premium</h3>
+                            <p class="price">399$ <span>/ month</span> </p>
+                            <p class="price-meal">That’s only 13.30$ per meal</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>
+                                    <ion-icon src="icon\ios-checkmark-empty.svg"></ion-icon>
+                                    1 meal every day
+                                </li>
+                                <li>
+                                    <ion-icon src="icon\ios-checkmark-empty.svg"></ion-icon>
+                                    Order 24/7
+                                </li>
+                                <li>
+                                    <ion-icon src="icon\ios-checkmark-empty.svg"></ion-icon>
+                                    Access to newest creations
+                                </li>
+                                <li>
+                                    <ion-icon src="icon\ios-checkmark-empty.svg"></ion-icon>
+                                    Free delivery
+                                </li>
+                                
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="" class="buttonlink">Sign up now</a>
+                        </div>
+                        </div>
+                </div>
+
+                <div class="col span_1_of_3">
+                    <div class="plan">
+                        <div>
+                            <h3>Pro</h3>
+                            <p class="price">149$ <span>/ month</span></p>
+                            <p class="price-meal">That’s only 14.90$ per meal</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>
+                                    <ion-icon src="icon\ios-checkmark-empty.svg" class=".city-icon"></ion-icon>
+                                    1 meal 10 days/month
+                                </li>
+                                <li>
+                                    <ion-icon src="icon\ios-checkmark-empty.svg" class=".city-icon"></ion-icon>
+                                    Order 24/7
+                                </li>
+                                <li>
+                                    <ion-icon src="icon\ios-checkmark-empty.svg" class=".city-icon"></ion-icon>
+                                    Access to newest creations
+                                </li>
+                                <li>
+                                    <ion-icon src="icon\ios-checkmark-empty.svg" cl.city-icon></ion-icon>
+                                    Free delivery
+                                </li>
+                                
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="" class="buttonlink">Sign up now</a>
+                        </div>
+                    </div>
+                        
+                </div>
+
+                <div class="col span_1_of_3">
+                    <div class="plan">
+                    <div>
+                        <h3>Starter</h3>
+                        <p class="price">19$ <span>/ meal</span></p>
+                        <p class="price-meal">&nbsp;</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <ion-icon src="icon\ios-checkmark-empty.svg"></ion-icon>
+                                1 meal
+                            </li>
+                            <li>
+                                <ion-icon src="icon\ios-checkmark-empty.svg"></ion-icon>
+                                Order from 8 am to 12 pm
+                            </li>
+                            <li>
+                                <ion-icon name="close-outline"></ion-icon>
+                            </li>
+                            <li>
+                                <ion-icon src="icon\ios-checkmark-empty.svg"></ion-icon>
+                                Free delivery
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="" class="buttonlink">Sign up now</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
     
 <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 </body>
 </html>
+
+
+
+
