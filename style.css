@@ -422,9 +422,28 @@ cite img{
 /* ------------footer------------ */
 /* ------------------------------ */
 .section-footer {
-    background-color: rgb(80, 80, 80);
+    background-color: rgb(63, 63, 63);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section-footer ul li{
+    display: inline;
+    list-style: none;
+    
 }
 
 .footer-nav li a{
     color: rgb(150, 148, 148);
 }
+.social-link {
+    text-align: right;
+}
+.social-link li a ion-icon{
+    color: rgb(150, 148, 148);
+}
+.copy-right{
+    text-align: center;
+    color: rgb(150, 148, 148);
+    padding-top: 50px;
+}
+

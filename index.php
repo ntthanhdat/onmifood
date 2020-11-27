@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Onmi Food</title>
+    <link rel="icon" href="image/logo-white.png" type="image/icon type">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="Grid.css">
     <link rel="stylesheet" href="style.css">
@@ -394,7 +395,7 @@
         </section>
         <section class="section-footer">
             <div class="row">
-                    <div class="col .span-1-of-2 ">
+                    <div class="col span-1-of-2 ">
                         <ul class="footer-nav">
                             <li><a href="">About us</a></li>
                             <li><a href="">Blog</a></li>
@@ -403,7 +404,7 @@
                             <li><a href="">Android App</a></li>
                         </ul>
                     </div>
-                    <div class="col .span-1-of-2 ">
+                    <div class="col span-1-of-2  ">
                         <ul class="social-link">
                             <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
                             <li><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
@@ -413,7 +414,7 @@
                     </div>
             </div>
             <div class="row">
-                <p>build in 2020</p>
+                <p class="copy-right">Build in 2020  <br> Copy right by Omnifood &copy;</p>
             </div>
         </section>
     
