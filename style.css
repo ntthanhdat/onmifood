@@ -12,7 +12,6 @@ html{
 }
 a {
     text-decoration: none;
-    color: white;
 
 }
 
@@ -164,6 +163,9 @@ header {
 .main-nav li{
     display: inline-block;
     margin-left: 40px;
+}
+.main-nav li a{
+    color: #fff;
 }
 .main-nav li a:link, .main-nav li a:visited{
     text-align: center;
@@ -415,4 +417,14 @@ cite img{
     border-radius: 200px;
     border: 2px solid #e67f22;
     padding: 10px 40px;
+}
+/* ------------------------------ */
+/* ------------footer------------ */
+/* ------------------------------ */
+.section-footer {
+    background-color: rgb(80, 80, 80);
+}
+
+.section-footer div div div a{
+    color: rgb(221, 221, 221);
 }

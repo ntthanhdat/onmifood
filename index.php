@@ -392,6 +392,28 @@
                 </div>
             </div>
         </section>
+        <section class="section-footer">
+            <div class="row">
+                    <div class="col .span-1-of-2 ">
+                        <div>
+                            <a href="">About us</a>
+                            <a href="">Blog</a>
+                            <a href="">Press</a>
+                            <a href="">iOS App</a>
+                            <a href="">Android App</a>
+                        </div>
+                    </div>
+                    <div class="col .span-1-of-2 ">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        <ion-icon name="logo-twitter"></ion-icon>
+                        <ion-icon name="logo-google"></ion-icon>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </div>
+            </div>
+            <div class="row">
+                <p>build in 2020</p>
+            </div>
+        </section>
     
 <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 </body>
