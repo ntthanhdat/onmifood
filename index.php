@@ -394,7 +394,7 @@
             </div>
         </section>
         <section class="section-footer">
-            <div class="row">
+            <div class="row nav-row">
                     <div class="col span-1-of-2 ">
                         <ul class="footer-nav">
                             <li><a href="">About us</a></li>
