@@ -395,19 +395,21 @@
         <section class="section-footer">
             <div class="row">
                     <div class="col .span-1-of-2 ">
-                        <div>
-                            <a href="">About us</a>
-                            <a href="">Blog</a>
-                            <a href="">Press</a>
-                            <a href="">iOS App</a>
-                            <a href="">Android App</a>
-                        </div>
+                        <ul class="footer-nav">
+                            <li><a href="">About us</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Press</a></li>
+                            <li><a href="">iOS App</a></li>
+                            <li><a href="">Android App</a></li>
+                        </ul>
                     </div>
                     <div class="col .span-1-of-2 ">
-                        <ion-icon name="logo-facebook"></ion-icon>
-                        <ion-icon name="logo-twitter"></ion-icon>
-                        <ion-icon name="logo-google"></ion-icon>
-                        <ion-icon name="logo-instagram"></ion-icon>
+                        <ul class="social-link">
+                            <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+                            <li><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+                            <li><a href=""><ion-icon name="logo-google"></ion-icon></a></li>
+                            <li><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+                        </ul>
                     </div>
             </div>
             <div class="row">

@@ -425,6 +425,6 @@ cite img{
     background-color: rgb(80, 80, 80);
 }
 
-.section-footer div div div a{
-    color: rgb(221, 221, 221);
+.footer-nav li a{
+    color: rgb(150, 148, 148);
 }
