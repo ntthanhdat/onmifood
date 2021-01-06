@@ -422,9 +422,47 @@ cite img{
 /* ------------footer------------ */
 /* ------------------------------ */
 .section-footer {
+<<<<<<< HEAD
     background-color: rgb(80, 80, 80);
 }
 
 .footer-nav li a{
     color: rgb(150, 148, 148);
 }
+=======
+    background-color: rgb(63, 63, 63);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section-footer ul li{
+    display: inline-block;
+    list-style: none;
+    
+}
+.nav-row{
+    width: 120%;
+}
+.footer-nav ul{
+    width: 120%;
+    
+}
+.footer-nav li, .social-link li{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    
+}
+.footer-nav li a{
+    color: rgb(150, 148, 148);
+}
+
+.social-link li a ion-icon{
+    color: rgb(150, 148, 148);
+}
+.copy-right{
+    text-align: center;
+    color: rgb(150, 148, 148);
+    padding-top: 50px;
+}
+
+/*xong*/
+>>>>>>> 2a315589369a44bc57cdf960bc27a21c343331f3
